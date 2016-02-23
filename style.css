@@ -155,11 +155,11 @@ body {
 	margin: 10px;
 }
 
-.new-item-bold-text {
+.new-item-title, .new-item-author {
 	font-weight: 700;
 }
 
-.new-item-bold-text-margin {
+.new-item-author {
 	margin: 2px 0 0;
 }
 
