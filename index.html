@@ -76,10 +76,11 @@
 
 .flex-new-item {
     display: flex;
-    background-color: red;
+    background-color: white;
 	flex: 1;
 	height: 400px;
-	margin: 5px;
+	margin: 10px;
+	flex-direction: column;
 }
 
 .flex-2 {
@@ -127,6 +128,26 @@
 	font: 11px 'Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-weight: 500;
     margin: 4px 0 0;
+}
+
+.new-item-pic {
+	background: transparent url("http://f1.bcbits.com/img/0006785271_150.jpg") no-repeat;
+	background-size: 100%;
+	width: 368px;
+	height: 207px;
+}
+
+.new-item-bold-text {
+	font: 13px/1.2307692308 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 700;
+}
+
+.new-item-bold-text-margin {
+    margin: 10px 10px 0;
+}
+
+.new-item-bold-text-margin2 {
+    margin: 2px 10px 0;
 }
 </style>
 </head>
@@ -206,7 +227,11 @@
 	    <div class="selling-text margin2">NEW AND NOTABLE</div>
 	  </div>
 	  <div class="flex-new-items">
-        <div class="flex-new-item flex-2">Item</div>
+        <div class="flex-new-item flex-2">
+		  <div class="new-item-pic"></div>
+		  <div class="new-item-bold-text new-item-bold-text-margin">Be Thankful (Digi/LP/LP+7'')</div>
+		  <div class="new-item-bold-text new-item-bold-text-margin2">by Melodiesinfonie</div>
+		</div>
         <div class="flex-new-item">Item</div>
         <div class="flex-new-item">Item</div>
         <div class="flex-new-item">Item</div>
