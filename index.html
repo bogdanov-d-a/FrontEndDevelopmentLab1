@@ -137,17 +137,20 @@
 	height: 207px;
 }
 
+.flex-new-item-info {
+    display: flex;
+	width: 100% - 20px;
+	flex-direction: column;
+    margin: 10px;
+}
+
 .new-item-bold-text {
 	font: 13px/1.2307692308 'Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-weight: 700;
 }
 
 .new-item-bold-text-margin {
-    margin: 10px 10px 0;
-}
-
-.new-item-bold-text-margin2 {
-    margin: 2px 10px 0;
+    margin: 2px 0 0;
 }
 </style>
 </head>
@@ -229,8 +232,10 @@
 	  <div class="flex-new-items">
         <div class="flex-new-item flex-2">
 		  <div class="new-item-pic"></div>
-		  <div class="new-item-bold-text new-item-bold-text-margin">Be Thankful (Digi/LP/LP+7'')</div>
-		  <div class="new-item-bold-text new-item-bold-text-margin2">by Melodiesinfonie</div>
+		  <div class="flex-new-item-info">
+		    <div class="new-item-bold-text">Be Thankful (Digi/LP/LP+7'')</div>
+		    <div class="new-item-bold-text new-item-bold-text-margin">by Melodiesinfonie</div>
+		  </div>
 		</div>
         <div class="flex-new-item">Item</div>
         <div class="flex-new-item">Item</div>
