@@ -102,13 +102,16 @@ body {
 	margin: 18px 0 0;
 }
 
-.selling-text {
+.selling-text, .new-text {
 	color: #408ea3;
 	font-size: 14px;
+}
+
+.selling-text {
 	margin: 18px 0 0;
 }
 
-.margin2 {
+.new-text {
 	margin: 36px 0 0;
 }
 
