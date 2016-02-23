@@ -1,3 +1,7 @@
+body {
+	font: 13px/1.2307692308 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
 .flex-outer {
 	display: flex;
 	width: 100%;
@@ -91,13 +95,13 @@
 
 .header-text {
 	color: #408ea3;
-	font: 16px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 16px;
 	margin: 18px 0 0;
 }
 
 .selling-text {
 	color: #408ea3;
-	font: 14px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 14px;
 	margin: 18px 0 0;
 }
 
@@ -113,13 +117,13 @@
 }
 
 .selling-item-title {
-	font: 11px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 11px;
 	font-weight: 700;
 	margin: 10px 0 0;
 }
 
 .selling-item-desc {
-	font: 11px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 11px;
 	font-weight: 500;
 	margin: 4px 0 0;
 }
@@ -146,7 +150,6 @@
 }
 
 .new-item-bold-text {
-	font: 13px/1.2307692308 'Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-weight: 700;
 }
 
@@ -155,12 +158,12 @@
 }
 
 .new-item-genre-text {
-	font: 12px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 12px;
 	color: #999;
 	margin: 2px 0 0;
 }
 
 .new-item-overview-text {
-	font: 13px/1.2307692308 Georgia, Times, serif;
+	font-family: Georgia, Times, serif;
 	margin: 2px 0 0;
 }
