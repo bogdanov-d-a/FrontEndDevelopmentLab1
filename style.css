@@ -72,16 +72,19 @@ body {
 	justify-content: center;
 }
 
-.flex-new-item {
+.flex-new-item, .flex-new-item-wide {
 	display: flex;
 	background-color: white;
-	flex: 1;
 	height: 400px;
 	margin: 10px;
 	flex-direction: column;
 }
 
-.flex-2 {
+.flex-new-item {
+	flex: 1
+}
+
+.flex-new-item-wide {
 	flex: 2
 }
 
