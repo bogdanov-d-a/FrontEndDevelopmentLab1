@@ -49,12 +49,21 @@ body {
 	justify-content: center;
 }
 
+.flex-selling-item-outer {
+	display: flex;
+	height: 225px;
+	flex: 1;
+}
+
 .flex-selling-item {
 	display: flex;
-	flex: 1;
 	height: 215px;
 	margin: 5px;
 	flex-direction: column;
+}
+
+.flex-selling-item-outer:hover {
+	background-color: #eef2f3;
 }
 
 .flex-new-outer {
