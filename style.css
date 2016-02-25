@@ -225,3 +225,13 @@ body {
 	background-position: -182px -143px;
 	display: inline-block;
 }
+
+.search-box {
+	background: #fff;
+	border: 1px solid #bebebe;
+	border-radius: 10px;
+	color: rgba(22,17,19,0.5);
+	height: 26px;
+	padding: 0 28px 0 10px;
+	width: 208px;
+}
