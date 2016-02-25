@@ -16,9 +16,24 @@ body {
 }
 
 .flex-header {
+	display: flex;
 	background-color: white;
 	width: 1000px;
 	height: 100%;
+}
+
+.flex-header-desc {
+	display: flex;
+	width: 550px;
+	height: 100%;
+	flex-direction: column;
+}
+
+.flex-header-search {
+	display: flex;
+	width: 450px;
+	height: 100%;
+	flex-direction: column;
 }
 
 .flex-selling-outer {
