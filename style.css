@@ -99,7 +99,8 @@ body {
 .flex-new-title {
 	display: flex;
 	width: 100%;
-	height: 90px;
+	height: 54px;
+	margin: 36px 0 0;
 }
 
 .flex-new-items {
@@ -146,10 +147,6 @@ body {
 
 .selling-text {
 	margin: 18px 0 0;
-}
-
-.new-text {
-	margin: 36px 0 0;
 }
 
 .selling-item-pic {
@@ -234,4 +231,21 @@ body {
 	height: 26px;
 	padding: 0 28px 0 10px;
 	width: 208px;
+
+.new-paging {
+	border: 1px solid #9dc3ce;
+	border-radius: 3px;
+	display: inline-block;
+	height: 20px;
+	margin-left: 770px;
+}
+
+.new-paging-left, .new-paging-right {
+	display: inline-block;
+	padding: 2px 18px;
+	color: #447988;
+}
+
+.new-paging-left {
+	border-right: 1px solid #9dc3ce;
 }
