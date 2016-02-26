@@ -34,6 +34,7 @@ body {
 	width: 450px;
 	height: 100%;
 	flex-direction: column;
+	justify-content: flex-end;
 }
 
 .flex-selling-outer {
@@ -225,7 +226,7 @@ body {
 
 .flex-search {
 	display: flex;
-	width: 100%;
+	padding-left: 190px;
 }
 
 .navigation-bar
@@ -233,6 +234,7 @@ body {
 	font-size: 1.2307692308em;
 	color: #161113;
 	font-weight: 700;
+	text-align: right;
 }
 
 ul {
