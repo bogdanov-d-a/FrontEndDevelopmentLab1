@@ -309,6 +309,12 @@ li {
 	display: inline-block;
 	padding: 2px 18px;
 	color: #447988;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.new-paging-left:hover, .new-paging-right:hover {
+	color: #2b4c55;
 }
 
 .new-paging-left {
