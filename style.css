@@ -71,6 +71,10 @@ body {
 	flex: 1;
 }
 
+.flex-selling-item-outer:hover {
+	cursor: pointer;
+}
+
 .flex-selling-item {
 	display: flex;
 	height: 215px;
@@ -190,6 +194,10 @@ body {
 	height: 184px;
 }
 
+.new-item-pic:hover, .new-item-pic2:hover {
+	cursor: pointer;
+}
+
 .flex-new-item-info {
 	display: flex;
 	flex-direction: column;
@@ -229,12 +237,16 @@ body {
 	padding-left: 190px;
 }
 
-.navigation-bar
-{
+.navigation-bar {
 	font-size: 1.2307692308em;
 	color: #161113;
 	font-weight: 700;
 	text-align: right;
+}
+
+.link:hover {
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 ul {
@@ -279,6 +291,10 @@ li {
 	width: 16px;
 	margin-left: -26px;
 	margin-top: 6px;
+}
+
+.search-btn:hover {
+	cursor: pointer;
 }
 
 .new-paging {
